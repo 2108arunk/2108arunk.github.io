@@ -15,6 +15,7 @@ body {
     padding: 1em;
     color: inherit;
     background: inherit;
+    font:16px monospace,monospace
 }
 
 html {
@@ -42,7 +43,7 @@ p {
 }
 
 h1 {
-	color: white;
+	color: tomato;
 }
 
 h2 {
@@ -54,7 +55,7 @@ h3 {
 }
 
 a {
-	color: lime;
+	color: cyan;
 	text-decoration: none;
     text-shadow: 1px 1px darkgreen;
 }
