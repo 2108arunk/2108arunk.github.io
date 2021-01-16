@@ -15,7 +15,7 @@ body {
     padding: 1em;
     color: inherit;
     background: inherit;
-    font:'Courier New', monospace
+    font-family:'Courier New', monospace
 }
 
 html {
