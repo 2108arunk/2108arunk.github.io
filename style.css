@@ -33,7 +33,6 @@ dd {
 
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
-    text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
 }
 
 p {
@@ -56,12 +55,10 @@ h3 {
 a {
 	color: cyan;
 	text-decoration: none;
-    text-shadow: 1px 1px darkgreen;
 }
 
 a:hover {
 	color: red;
-    text-shadow: 1px 1px darkred;
 }
 
 .menubar li a {
@@ -89,15 +86,11 @@ nav {
 	float: left;
 	width: 100px;
     min-height: 1.5em;
-    background: #222;
     border: #444 solid 2px;
     padding: 3px;
     margin: 4px;
 }
 
-.menubar li:hover {
-    background: #000;
-}
 
 .menubar a {
     text-decoration: none;
@@ -180,6 +173,3 @@ strong {
     color: tomato;
 }
 
-em {
-    text-shadow: -1px 1px #444;
-}
