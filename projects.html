@@ -24,8 +24,17 @@
 
 </ul>
 </nav>
-<h2>Here are a few projects that I have done...</h2>
+<h2>Projects I have worked on</h2>
 <img src="pictures/Spiderman4.gif" style="max-width: 50%;margin: auto; display: block;" alt="Pika..pi" title="Pika..pi">
+
+<h3>Safex</h3>
+<p>
+It is a safe execution program that makes use of library interception to disallow any application to make direct system calls. Instead it sends out the system call information to a delegate process which then checks the system call parameters to a pre-defined policy according to which the system call is then made by the delegate process and the return value is sent back to the application making the system call, the system call parameters and file descriptors are passed between the library and the delegate process thought Unix domain socket.
+<br>
+
+<h3>url2file</h3>
+<p>
+A ptrace based utility that transparently  extends an application with the ability to handle urls, made use of ptrace as a mechanism to intercept system calls that are made to access and open a file, if the file name is a url then the file was downloaded to the system and then the the system calls were made to that downloaded file<br>
 
 <h3>Some Chords</h3>
 <p>A website written to be simple and functional, written in plain ascii for portability. To go along with that
@@ -64,8 +73,6 @@ The Apps are called “[Substratum] Navigate theme” and “[Substratum] Status
 theme”.
 “Navigate” theme has crossed 300K downloads on Google Play Store.<br>
 <a href="https://play.google.com/store/apps/details?id=com.rc.navigate&hl=en_IN">Link to play store</a></p>
-<h3>Covid Status Script for my State</h3>
-<p>A simple one liner shell script to quickly see the last day stats of covid-19 in my state. The data is fetched from a csv file maintained by the guys at covid19india.org.
 
 <footer>
     <a href="index.html"><img src="pictures/footer-home.svg" alt="Home" title="Return to main page"> HOME</a> &mdash;
