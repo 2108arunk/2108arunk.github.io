@@ -13,9 +13,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+    font-size: 16px;
     color: inherit;
     background: inherit;
-    font-family:monospace
+    font-family:monospace, monospace;
 }
 
 html {
@@ -31,12 +32,10 @@ dd {
 	margin-bottom: 2px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
+h1{
+    text-align: center;
 }
-
 p {
-  font-size: 16px;
   text-align: justify;
 }
 a {
@@ -47,15 +46,11 @@ a:hover {
 	color: red;
 }
 
-.menubar li a {
-    display: block;
-}
-
 .menubar {
     display: inline-block;
     margin: 0;
     padding: 0;
-    zoom:1;
+    text-align:center;
 
 }
 
@@ -71,34 +66,10 @@ nav {
     display: block;
     float: left;
     width: 100px;
-    min-height: 1.5em;
-    padding: 3px;
-    margin: 4px;
+    padding: 1px;
+    margin: 1px;
 }
 
-
-.menubar a {
-    text-decoration: none;
-}
-
-.menubar li ul {
-	visibility: hidden;
-	position: absolute;
-    padding-top: 10px;
-}
-
-.menubar li:hover ul {
-	visibility: visible;
-    padding-left: 0;
-    margin-left: -7px;
-}
-
-.menubar li ul li {
-    float: none;
-    position: relative;
-    width: 150px;
-    text-align: left;
-}
 
 code {
 	color: green;
