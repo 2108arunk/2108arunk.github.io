@@ -54,13 +54,6 @@ a:hover {
 
 }
 
-nav {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: large;
-    text-align: center;
-}
-
 
 .menubar li {
     display: block;
@@ -96,36 +89,5 @@ code {
     border: 0px;
 }
 
-.soy {
-	animation: shake 0.4s ease-out;
-	animation-iteration-count: infinite;
-	display: inline-block;
-}
 
-@keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-	}
-
-blockquote {
-    width: 80%;
-    font-style: italic;
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-strong {
-    color: tomato;
-}
 
