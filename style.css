@@ -15,7 +15,7 @@ body {
     padding: 1em;
     color: inherit;
     background: inherit;
-    font-family:'Courier New', monospace
+    font-family:monospace
 }
 
 html {
@@ -36,22 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
 }
-
-h1 {
-	color: tomato;
-}
-
-h2 {
-	color: goldenrod;
-}
-
-h3 {
-	color: teal;
-}
-
 a {
 	text-decoration: none;
 }
@@ -81,11 +68,10 @@ nav {
 
 
 .menubar li {
-	display: block;
-	float: left;
-	width: 100px;
+    display: block;
+    float: left;
+    width: 100px;
     min-height: 1.5em;
-    border: #444 solid 2px;
     padding: 3px;
     margin: 4px;
 }
