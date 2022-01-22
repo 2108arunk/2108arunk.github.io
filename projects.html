@@ -19,57 +19,18 @@
 </div>
 <br>
 
-<h3>Safex</h3>
+<h3>Compression Utility in C</h3>
 <p>
-It is a safe execution program that makes use of library interception to disallow any application to make direct system calls. Instead it sends out the system call information to a delegate process which then checks the system call parameters to a pre-defined policy according to which the system call is then made by the delegate process and the return value is sent back to the application making the system call, the system call parameters and file descriptors are passed between the library and the delegate process thought Unix domain socket.
+I wrote a command line in Cutility to perform compression of a data stream by applying the ”move-to-front transform”, followed by Fibonacci coding. 
+MTF was implemented using a tree based data structure, and input/output using bit-wise manipulations and the extensive use of pointers.
+<a href="https://github.com/2108arunk/CSE-320-Systems-programming/tree/main/HW1%20-%20Compression%20utility%20in%20C">Link to Github</a></p>
 <br>
 
-<h3>url2file</h3>
+<h3>Dynamic memory allocator in C</h3>
 <p>
-A ptrace based utility that transparently  extends an application with the ability to handle urls, made use of ptrace as a mechanism to intercept system calls that are made to access and open a file, if the file name is a url then the file was downloaded to the system and then the the system calls were made to that downloaded file<br>
-
-<h3>Some Chords</h3>
-<p>A website written to be simple and functional, written in plain ascii for portability. To go along with that
-a ncurses program written in C, which you can use from the link below.
-<br>
-<a href="https://github.com/rohitchouhan07/some_chords">Link to the source</a>
-<h3>Chords</h3>
-<p>A simple program to print out common guitar chord shapes right in your
-terminal. Maybe posix compliant, I am not too sure about that.
-<br>
-<a href="https://github.com/rohitchouhan07/chords">Link to the source</a>
-
-<h3>Phetch</h3>
-<p>A small little POSIX compliant shell script to print out useful/unuseful
-information in your terminal.
-<p>Will be expanding this till it's maturity to keep an eye on that!!
-<br>
-<a href="https://github.com/rohitchouhan07/phetch">Link to the source</a>
-
-<h3>Intelligent Traffic Lights Using Reinforcement Learning</h3>
-<p>Distressed with the increasing traffic in my city, I decided to undertake a project that
-could have some value in the future. We Started off by conducting literature survey,
-soon to discover that there has been some solid work done in the field. We
-expanded our research to be more in line with the Indian Traffic conditions and the
-results we were able to achieve were significant. We achieved a 74% performance
-improvement over a standard traffic light.<br>
-<a href="https://github.com/rohitchouhan07/Deep-QLearning-Agent-for-Traffic-Signal-Control">Here is the link to the source</a></p>
-
-
-<h3>Navigation Bar and Status bar customisation for Android</h3>
-<p>These are theme-ing apps that work alongside the Substratum theme engine for
-Android to change and customize
-
-
-
-
-navigation and status bar of an android device.
-I made them possible using guides from the theme community, Android Studio,
-GIMP, Adobe Illustrator and JAVA.
-The Apps are called “[Substratum] Navigate theme” and “[Substratum] Status
-theme”.
-“Navigate” theme has crossed 300K downloads on Google Play Store.<br>
-<a href="https://play.google.com/store/apps/details?id=com.rc.navigate&hl=en_IN">Link to play store</a></p>
+Implemented segregated free list allocator for the x86-64 architecture which does free, malloc and realloc. 
+Allocator has supports immediate coalescing of blocks on free with adjacent free blocks, boundary tags to support efficient coalescing and free lists maintained using last in first out (LIFO) structure
+<a href="https://github.com/2108arunk/CSE-320-Systems-programming/tree/main/HW3%20-%20Dynamic%20Memory%20Allocator%20in%20C">Link to Github</a></p>
 
 <footer style="font-size:14px;">
     <a href="index.html"><img src="pictures/footer-home.svg" alt="Home" title="Return to main page"> HOME</a> &mdash;
